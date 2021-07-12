@@ -1,4 +1,4 @@
-package com.metoree.tools.pdf2image;
+package com.orangeman.tools.pdf2image;
 
 import java.io.IOException;
 

@@ -43,3 +43,5 @@ build/tmp/compileJava/source-classes-mapping.txt
 .gradle/6.8/fileChanges/last-build.bin
 .gradle/6.8/executionHistory/executionHistory.lock
 .gradle/6.8/executionHistory/executionHistory.bin
+/.gradle/6.8/javaCompile/classAnalysis.bin
+/.idea/uiDesigner.xml
