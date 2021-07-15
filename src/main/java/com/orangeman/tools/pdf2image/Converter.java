@@ -30,7 +30,7 @@ public class Converter {
 			String imageFileName = pdfFileName.replace(".pdf", ".jpeg");
 			try {
 				convertFile(pdfFile, new File(String.format("%s/%s", imagePath, imageFileName)));
-			} catch (IOException e) {
+			} catch (Exception e) {
 				System.err.println(String.format("%s Failed", pdfFileName));
 				try {
 					output.write(pdfFileName);
