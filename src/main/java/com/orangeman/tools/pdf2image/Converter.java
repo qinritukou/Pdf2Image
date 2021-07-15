@@ -31,9 +31,10 @@ public class Converter {
 			try {
 				convertFile(pdfFile, new File(String.format("%s/%s", imagePath, imageFileName)));
 			} catch (Exception e) {
-				System.err.println(String.format("%s Failed", pdfFileName));
+				String err = String.format("%s Failed with error: ", pdfFileName, e.getMessage());
+				System.err.println(err);
 				try {
-					output.write(pdfFileName);
+					output.write(err);
 					output.write('\n');
 				} catch (IOException ioException) {
 				}
